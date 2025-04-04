@@ -9,4 +9,6 @@ def saudacao(nome):
     print(f"Olá, {nome}!")
 saudacao("Elisa")
 
-
+# Função Lambda
+quadrado = lambda x: x ** 2
+print(quadrado(5))
