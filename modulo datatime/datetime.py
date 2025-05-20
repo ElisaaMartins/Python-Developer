@@ -1,6 +1,8 @@
+# um módulo para manipular datas e horas (tempo em geral)
+
 from datetime import date, datetime, time
 
-data = date(2023, 7, 10)
+""" data = date(2023, 7, 10)
 print(data)
 print(date.today())
 
@@ -9,12 +11,13 @@ data_hora = datetime(2023, 7, 10)
 print(data_hora)
 print(datetime.today())
 
-hora = time(10, 20, 0)
-print(hora)
+hora = time(10, 20, 0) 
+print(hora) """
 
 d =  datetime.date(2023, 7, 19)
 print(d) #2023-07-19
 
+# adicionar e subtrair datas, verificar a diferença entre datas e muito mais
 # criando data e hora
 d = datetime.datetime(2023, 7, 19, 10, 20)
 print(d) #2023-07-19 10:20:00

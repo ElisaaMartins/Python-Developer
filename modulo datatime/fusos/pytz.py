@@ -1,3 +1,5 @@
+# lidar com fusos horários 
+
 from datetime import datetime
 
 import pytz
